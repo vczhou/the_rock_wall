@@ -11,7 +11,7 @@
     
     -->
 
-    <fragment android:id="@+id/route_list" android:name="vchou.therockwall.RouteListFragment"
+    <fragment android:id="@+id/route_list" android:name="vczhou.therockwall.RouteListFragment"
         android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
         tools:layout="@android:layout/list_content" />
 

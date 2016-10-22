@@ -1,4 +1,4 @@
-package vchou.therockwall;
+package vczhou.therockwall;
 
 import android.content.Intent;
 import android.os.Bundle;

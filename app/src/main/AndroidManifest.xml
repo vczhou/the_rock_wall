@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="vchou.therockwall" >
+    package="vczhou.therockwall">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".RouteListActivity"
-            android:label="@string/app_name" >
+            android:name="vczhou.therockwall.RouteListActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +17,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RouteDetailActivity"
+            android:name="vczhou.therockwall.RouteDetailActivity"
             android:label="@string/title_route_detail"
-            android:parentActivityName=".RouteListActivity" >
+            android:parentActivityName="vczhou.therockwall.RouteListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RouteListActivity" />
+                android:value="vczhou.therockwall.RouteListActivity" />
+        </activity>
+        <activity
+            android:name="vczhou.therockwall.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

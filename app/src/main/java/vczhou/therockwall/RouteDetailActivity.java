@@ -1,4 +1,4 @@
-package vchou.therockwall;
+package vczhou.therockwall;
 
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
